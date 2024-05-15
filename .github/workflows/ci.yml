@@ -42,3 +42,4 @@ jobs:
       
       - name: Check style auth
         run : test -z $(go fmt ./internal/auth)
+        
